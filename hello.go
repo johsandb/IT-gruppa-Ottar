@@ -8,5 +8,4 @@ func main() {
 	fmt.Println ("Hei, mitt navn er Kristian")
 	fmt.Println ("Hei, mitt navn er Marius")
 	fmt.Println ("Hei, mitt navn er Frode")
-	fmt.Println ("Gutta kødder")
 }
