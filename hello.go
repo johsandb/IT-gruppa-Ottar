@@ -7,4 +7,5 @@ func main() {
 	fmt.Println("Hei, jeg heter Martin.")
 	fmt.Println ("Hei, mitt navn er Kristian")
 	fmt.Println ("Hei, mitt navn er Marius")
+	fmt.Println ("Hei, mitt navn er Frode")
 }
