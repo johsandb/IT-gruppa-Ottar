@@ -7,6 +7,7 @@ func main() {
 	fmt.Println("Hei, mitt navn er Martin.")
 	fmt.Println("Hei, mitt navn er Kristian")
 	fmt.Println("Hei, mitt navn er Marius")
+	fmt.Println("Hei, mitt navn er John")
   fmt.Println("Hei, mitt navn er Christoffer")
 	fmt.Println("Hei, mitt navn er Frode")
 	fmt.Println("Hei, mitt navn er Preben")
