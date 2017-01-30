@@ -18,4 +18,5 @@ func main() {
 =======
 	fmt.Println ("Hei, mitt navn er Preben")
 	fmt.Println ("Gutta kødder")
+	fmt.Println ("Hei, mitt navn er Joakim")
 }
