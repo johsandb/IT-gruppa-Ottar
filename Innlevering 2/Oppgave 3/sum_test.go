@@ -14,7 +14,7 @@ var sum_tests_int32 = []struct {
 }
 
 func TestSumInt32(t *testing.T) {
-	for _, v := range sum_tests_int32 {
+	for _, v := range sum_tests_int8 {
 		if val := SumInt8(v.n1, v.n2); val != v.expected {
 			t.Errorf("Sum(%d, %d) returned %d, expected %d", v.n1, v.n2, val, v.expected)
 		}
