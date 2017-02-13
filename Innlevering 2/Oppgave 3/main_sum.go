@@ -22,5 +22,5 @@ func run(){
     }
 
     fmt.Println("Dette er svaret dit:")
-    fmt.Println(argInput2 + argInput2)
+    fmt.Println(argInput1 + argInput2)
 }
