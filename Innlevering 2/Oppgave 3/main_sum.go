@@ -2,7 +2,6 @@ package sum
 
 import (
   "fmt"
-  "math"
   "os"
   "strconv"
 )
