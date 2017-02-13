@@ -15,6 +15,6 @@ func main(){
         fmt.Println(err)
     }
 
-    fmt.Println("Summen av " + argInput1 + " + " + argInput2 + " er:")
+    fmt.Println("Summen av " + arg1 + " + " + arg2 + " er:")
     fmt.Println(argInput1 + argInput2)
 }
