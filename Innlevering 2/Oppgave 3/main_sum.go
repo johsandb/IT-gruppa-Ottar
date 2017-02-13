@@ -1,4 +1,4 @@
-package sum
+package main
 
 import (
   "fmt"
