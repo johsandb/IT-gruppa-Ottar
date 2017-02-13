@@ -6,7 +6,7 @@ import (
   "strconv"
 )
 
-func run(){
+func main(){
   //Her har vi koden fra oppgave linken, men
   //vi får denne feilmeldingen
   //strconv.ParseFloat: parsing "E:\\Christoffer\\Documents\\bin\\Test.exe": invalid syntax
