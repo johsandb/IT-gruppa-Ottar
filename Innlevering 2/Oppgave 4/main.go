@@ -1,7 +1,6 @@
 package main
 
-import ("Oppgave 4/Algorithms"
-	//"container/list"
+import ("./Algorithms"
 	"fmt"
 )
 
@@ -9,7 +8,6 @@ func main (){
 	values := []int{9, 1, 20, 3, 6, 7}
 
 	fmt.Println("Tallrekke:", values)
-	//fmt.Println(values)
 	algorithms.Bubble_sort_modified(values)
 	//algorithms.Bubble_sort(values)
 	fmt.Println("Sorted:  ", values)
