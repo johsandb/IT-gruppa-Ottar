@@ -1,6 +1,6 @@
 package main
 
-import ("IntelliJ/Algorithms"
+import ("Oppgave 4/Algorithms"
 	//"container/list"
 	"fmt"
 )
