@@ -1,8 +1,26 @@
 package algorithms
 
-// Les https://en.wikipedia.org/wiki/Bubble_sort
+import "fmt"
+
 func Bubble_sort_modified(list []int) {
 	// Deres kode her
+	n := len(list)
+	for {
+		swapped := true
+		for j := 0; j < n-1; j++ {
+			if list[j] > list[j+1] {
+				temp := list[j+1]
+				list[j+1] = list[j]
+				list[j] = temp
+				swapped = false
+			}
+		}
+		n -= 1
+		fmt.Println(list)
+		if swapped == true {
+			break // dersom ingen sortering har skjedd, betyr det at hele listen er sortert
+		}
+	}
 }
 
 // Implementering av Bubble_sort algoritmen
@@ -15,8 +33,11 @@ func Bubble_sort(list []int) {
 				temp := list[j+1]
 				list[j+1] = list[j]
 				list[j] = temp
+				fmt.Println(list)
 			}
+			//fmt.Println(list)
 		}
+		//fmt.Println(list)
 	}
 }
 
