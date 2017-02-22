@@ -1,7 +1,8 @@
 package main
 
 import (
-	"IntelliJ/ICA03/ascii"
+	//"IntelliJ/ICA03/ascii"
+	"./ascii"
 )
 
 func main() {
