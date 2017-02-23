@@ -21,7 +21,7 @@ const ascii = "\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f"
 // 40 @ 1000000
 // ...
 func IterateOverASCIIStringLiteral(sl string) {
-	// Kode for Oppgave 1a
+	// Kode for Oppgave 1
 	//fmt.Println("" + " " + "" + " " + "");
 
 	for i := 0; i < len(sl); i ++ {
@@ -48,4 +48,5 @@ func GreetingASCII() {
 	//Hello :-) i hexa
 	s := "\x48\x65\x6C\x6C\x6F\x20\x3A\x2D\x29"
 		fmt.Println(s)
+	return s
 }
