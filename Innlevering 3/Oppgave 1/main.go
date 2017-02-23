@@ -7,7 +7,7 @@ import (
 
 func main() {
 	//var temp string;
-	//temp = "K";
+	//temp = ">";
 	//ascii.IterateOverASCIIStringLiteral(temp)
 	ascii.GreetingASCII()
 }
