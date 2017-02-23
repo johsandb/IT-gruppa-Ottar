@@ -2,9 +2,10 @@ package ascii
 
 import (
 	"fmt"
+	//"strconv"
 )
 
-const ascii = "\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f" +
+const Ascii = "\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f" +
 	"\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f" +
 	` !"#$%&'()*+,-./0123456789:;<=>?` +
 	`@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_` +
@@ -21,7 +22,7 @@ const ascii = "\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0a\x0b\x0c\x0d\x0e\x0f"
 // 40 @ 1000000
 // ...
 func IterateOverASCIIStringLiteral(sl string) {
-	// Kode for Oppgave 1
+	// Kode for Oppgave 1a
 	//fmt.Println("" + " " + "" + " " + "");
 
 	for i := 0; i < len(sl); i ++ {
@@ -44,9 +45,27 @@ func IterateOverASCIIStringLiteral(sl string) {
 // Funksjonen greetingASCII() returnerer en variabel av typen string,
 // som inneholder kun ASCII tegn (ikke utvidet ASCII).
 // Gjelder oppgave 1b
-func GreetingASCII() {
-	//Hello :-) i hexa
-	s := "\x48\x65\x6C\x6C\x6F\x20\x3A\x2D\x29"
-		fmt.Println(s)
-	return s
+
+
+// Kode for 1c)
+
+//Bruker isASCII funksjon fra fmt
+func isASCII(s string) bool {
+	for _, c := range s {
+		if c > 127 {
+		//sjekker om det inneholder verdi høyere enn 127 som er høyeste verdi for ascii
+			return false
+		}
+	}
+	return true
 }
+
+func GreetingASCII(){
+
+	// Kode for Oppgave 1b
+
+	s := "\x48\x65\x6C\x6C\x6F\x20\x3A\x2D\x29"
+	fmt.Println(s)
+	fmt.Println(isASCII(s))
+}
+
